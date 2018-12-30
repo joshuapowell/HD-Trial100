@@ -1,9 +1,11 @@
 # Hardware Trial 100
 
-## tmp36gz.ino
+## Temperature Test
+A basic temperature test was undertaken using a TMP36GZ.
 
-![Bill of Materials](images/tmp36gz_bom.png)
-Bill of Materials
+Further information about this trial can be found here.
 
-![Diagram](images/tmp36gz_bb.png)
-Breadboard Diagram
+## WiFi Test
+A basic WiFi test was undertaken using a ESP8266-EX.
+
+Further information about this trial can be found here.
