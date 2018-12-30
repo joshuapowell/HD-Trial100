@@ -2,4 +2,8 @@
 
 ## tmp36gz.ino
 
-https://www.instructables.com/id/How-to-use-the-TMP36-temp-sensor-Arduino-Tutorial/
+![Bill of Materials](images/tmp36gz_bom.png)
+Bill of Materials
+
+![Diagram](images/tmp36gz_bb.png)
+Breadboard Diagram
