@@ -1,4 +1,4 @@
-# BMP680
+# BME680
 Temperature Sensor
 
 https://acrobotic.com/products/brk-00019
