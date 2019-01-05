@@ -18,6 +18,7 @@ https://acrobotic.com/products/brk-00019
 
 ## Wire Up
 
+- https://github.com/adafruit/Adafruit_Sensor
 - https://github.com/adafruit/Adafruit_BME680
 - https://learn.adafruit.com/adafruit-bme680-humidity-temperature-barometic-pressure-voc-gas/arduino-wiring-test
 
