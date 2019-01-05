@@ -36,11 +36,58 @@ Install the package using Homebrew
 brew cask install wch-ch34x-usb-serial-driver
 ```
 
+#### 2019-01-01
+The driver install via Homebrew on 2018-12-31 did not work for the specific
+Arduino that I am using with macOS High Sierra 10.13.6
+
+#### 2019-01-05
+
+21:30:29 | All Homebrew drivers uninstalled. New CH34x_Install_v1_5 drivers 
+           have been installed and are currently being tested.
+
+11:12:01 | CH34x_Install_v1_5 drivers have not been functioning properly. I
+           am unable to get a Basic application uploaded to the Arduino Nano.
+
+           Drivers were obtained from supposed Chinese manufacturer via
+           http://www.wch.cn/download/CH341SER_MAC_ZIP.html
+
+           I have executed multiple tutorials attempting to work around this.
+           They include restarting under recovery mode on macOS and executing
+           `sudo nvram boot-args="kext-dev-mode=1" and uninstalling removing
+           `sudo rm -f /Library/Extensions/usbserial.kext`.
+
+00:12:00 | I have decided to attempt to install an older version of the driver
+           labeld CH34x_Install_v1_3.
+
+           I uninstalled all previous drivers prior to *_v1_3 installation.
+           
+           After installation the Driver Installer forces you to reboot.
+           
+           After reboot I was able to successfully move on to Uploading a
+           sketch to the Arduino Nano device. 
+
+## Uploading
+In order to upload to the device I needed to use the following settings in the
+Arduino IDE.
+
+These settings can be found in the macOS Arduino application by clicking
+Tools > * from the menu bar.
+
+- Board: Arduino Nano
+- Processor: AT328P (Old Bootloader)
+- Port: /dev/cu.wchusbserial1420 (in my case)
+
+### Basic > Bare Minimum
+2019-01-05 00:27:28 Successfully Verified and Uploaded Basic Bare Minimum
+
+### Basic > Blink
+2019-01-05 00:28:13 Successfully Verified and Uploaded Basic Blink
+
 ## Overview
 WYPH Mini Nano V3.0 Module ATmega328P 5V 16MHz CH340G Chip Microcontroller
 Development Board
 
-## Specifications
+### Specifications
 Specifications:
 - Microcontroller: Atmel ATmega328
 - Architecture: AVR
@@ -57,7 +104,7 @@ Specifications:
 - Power consumption: 19 mA
 - Dimensions: 0.70 "x 1.70''
 
-## Input and Output
+### Input and Output
 - Each of the 14 digital pins on the Nano can be used as an input or output,
   using pinMode(), digitalWrite(), and digitalRead() functions.
 - Some pins have specialized functions: Serial: 0 (RX) and 1 (TX). Used to
