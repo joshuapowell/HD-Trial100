@@ -27,6 +27,9 @@ https://acrobotic.com/products/brk-00019
 - https://www.bosch-sensortec.com/bst/products/all_products/bme680
 - https://github.com/BoschSensortec/BME680_driver
 
+## Understanding VOC
+- https://www.epa.gov/indoor-air-quality-iaq/technical-overview-volatile-organic-compounds
+
 ## Example Code
 http://www.theorycircuit.com/bme680-arduino/
 
