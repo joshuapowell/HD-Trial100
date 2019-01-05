@@ -3,6 +3,17 @@ Temperature Sensor
 
 https://acrobotic.com/products/brk-00019
 
+## Specification
+
+- Board Size: 18mm × 16.3mm
+- Digital interface: I2C (up to 3.4 MHz) and SPI (3 and 4 wire, up to 10 MHz)
+- Supply voltage: 3~5V
+- Pinout: VCC, GND, SCL/SCK, SDA/SDI, SDO, CS (active low)
+- Operating voltage:  1.71~3.6 V (Vdd) and 1.2~3.6V (Vddio)
+- Current consumption: 0.09~12mA for p/h/T/gas depending on operation mode; 0.15 μA in sleep mode
+- Operating range: –40~85°C, 0~100%r.H., 300~1100hPa
+- Individual humidity, pressure and gas sensors can be independently enabled/disabled
+
 <img src="https://github.com/joshuapowell/HD-Trial100/blob/master/trials/temperature/BMP680/images/ai_brk00019_iso1_867cd8a8-321d-459b-b864-e0a3423c0305.jpg?raw=true" />
 
 ## Manufacturer Information
