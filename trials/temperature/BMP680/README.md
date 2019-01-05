@@ -16,6 +16,10 @@ https://acrobotic.com/products/brk-00019
 
 <img src="https://github.com/joshuapowell/HD-Trial100/blob/master/trials/temperature/BMP680/images/ai_brk00019_iso1_867cd8a8-321d-459b-b864-e0a3423c0305.jpg?raw=true" />
 
+## Wire Up
+
+https://github.com/adafruit/Adafruit_BME680
+
 ## Manufacturer Information
 - https://learn.acrobotic.com/datasheets/BME680.pdf
 - https://www.bosch-sensortec.com/bst/products/all_products/bme680
