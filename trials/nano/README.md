@@ -77,6 +77,8 @@ Tools > * from the menu bar.
 - Processor: AT328P (Old Bootloader)
 - Port: /dev/cu.wchusbserial1420 (in my case)
 
+<img src="./images/proper-arduino-configuration.png" alt="" title="" />
+
 ### Basic > Bare Minimum
 2019-01-05 00:27:28 Successfully Verified and Uploaded Basic Bare Minimum
 
