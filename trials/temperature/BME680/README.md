@@ -3,6 +3,45 @@ Temperature Sensor
 
 https://acrobotic.com/products/brk-00019
 
+## Using the BME680 with Arduino Nano
+
+### Install the Common Sensor Library
+
+1. Visit https://github.com/adafruit/Adafruit_Sensor
+
+<img src="./images/adafruit-setup-0.png" alt="" title="" />
+
+2. Download the "Adafruit_Sensor" zip file
+
+<img src="./images/adafruit-setup-1.png" alt="" title="" />
+
+3. Unzip the package
+
+<img src="./images/adafruit-setup-2.png" alt="" title="" />
+
+4. Move the "Adafruit_Sensor" directory to `~/Documents/Arduino/libraries`
+
+<img src="./images/adafruit-setup-3.png" alt="" title="" />
+
+
+
+### Install the BME Library
+1. Install the Adafruit BME680 Library
+  * In the Arduino.app for macOS, select "Sketch" from the menu bar
+  * Hover over "Include Library"
+  * Select "Manage Libraries"
+
+<img src="./images/bme-setup-1.png" alt="" title="" />
+
+2. In the "Library Manager" you can "Filter your search..." by typing in "Adafruit_BME680"
+
+<img src="./images/bme-setup-2.png" alt="" title="" />
+
+3. Select the "v1.0.7" from the drop down
+4. Click the "Install" button
+
+
+
 ## Specification
 
 - Board Size: 18mm × 16.3mm
