@@ -19,7 +19,7 @@ https://acrobotic.com/products/brk-00019
 
 <img src="./images/adafruit-setup-2.png" alt="" title="" />
 
-4. Move the "Adafruit_Sensor" directory to `~/Documents/Arduino/libraries`
+4. Move the entire directory "Adafruit_Sensor" from `~/Downloads` directory to `~/Documents/Arduino/libraries`
 
 <img src="./images/adafruit-setup-3.png" alt="" title="" />
 
@@ -53,7 +53,7 @@ https://acrobotic.com/products/brk-00019
 - Operating range: –40~85°C, 0~100%r.H., 300~1100hPa
 - Individual humidity, pressure and gas sensors can be independently enabled/disabled
 
-<img src="https://github.com/joshuapowell/HD-Trial100/blob/master/trials/temperature/BMP680/images/ai_brk00019_iso1_867cd8a8-321d-459b-b864-e0a3423c0305.jpg?raw=true" />
+<img src="./images/ai_brk00019_iso1_867cd8a8-321d-459b-b864-e0a3423c0305.jpg?raw=true" />
 
 ## Wire Up
 
